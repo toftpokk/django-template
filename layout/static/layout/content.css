@@ -56,3 +56,12 @@
 .prose blockquote p {
     margin-top: 1rem;
 }
+
+.prose dt {
+    font-weight: bold;
+    margin-top: 0.7rem;
+}
+
+.prose dd p {
+    margin-top: 0.2rem;
+}
