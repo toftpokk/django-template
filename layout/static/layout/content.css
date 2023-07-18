@@ -39,3 +39,15 @@
 .prose li {
     margin-top: 1em;
 }
+
+.prose blockquote {
+    background-color: var(--blockquote-bg);
+    border-left: 0.5rem solid var(--blockquote-border-bg);
+    padding-left: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+}
+
+.prose blockquote p {
+    margin-top: 1rem;
+}

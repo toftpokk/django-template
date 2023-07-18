@@ -7,10 +7,10 @@
     --pre-bg-color: #181818;
     --pre-code-color: #eee;
     --font-size: 16pt;
+	--blockquote-bg: #b8b8b844;
+	--blockquote-border-bg: #585858;
 
 	--subtitle-color: #555;
-	--blockquote-bg: #efefef;
-	--blockquote-border-bg: #000;
 	--code-multi-bg: #181818;
 	--code-single-bg: #ddd;
 	--bg-color-var: #eee;
