@@ -29,6 +29,7 @@
 
 .prose pre {
     background-color: var(--pre-bg-color);
+    padding: 1rem;
 }
 
 .prose pre code {
