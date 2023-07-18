@@ -1,0 +1,41 @@
+/* For markdown stuff */
+.prose {
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.prose :is(h2, h3, h4, p, pre, ul, ol) {
+    margin-top: 2rem;
+}
+
+.prose pre {
+    overflow: scroll;
+}
+
+.prose a {
+    color: var(--link-color);
+}
+
+.prose a:hover {
+    text-decoration: none;
+}
+
+.prose code {
+    color: var(--code-color);
+    background-color: var(--code-bg-color);
+}
+
+.prose pre {
+    background-color: var(--pre-bg-color);
+}
+
+.prose pre code {
+    color: var(--pre-code-color);
+    background-color: transparent;
+}
+
+.prose li {
+    margin-top: 1em;
+}
